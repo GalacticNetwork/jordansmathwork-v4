@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+      background: transparent;
+      color: white;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    #playlist {
+      margin-bottom: 40px;
+    }
+
+    #player {
+      border-top: 1px solid #333;
+      padding-top: 40px;
+    }
+
+    #now-playing {
+      margin-bottom: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .song {
+      margin-bottom: 10px;
+    }
+
+    .song-title {
+      font-weight: bold;
+    }
+
+    .song-artist {
+      color: #777;
+    }
+    .musicimg {
+        width: 150px;
+        height: 150px;
+        border-radius: 15px;
+    }
+  </style>
+</head>
+  <body>
+
+    <main>
+      <section id="player">
+        <div align="center">
+        <h2>Songs!</h2>
+          <h4>Wanna report a bug? Click <a href="https://forms.gle/ZwGxj491oESvHwyK6" class="hyperlink">Here!</a></h4>
+          <h6>Wanna Suggest a song? Click <a href="https://forms.gle/d721EViGMxMSS6rXA" class="hyperlink">Here!</a></h>
+          </div>
+        <hr>
+        <div align="center">
+        <div id="now-playing">
+            <img src="https://i1.sndcdn.com/artworks-nFV0ynLDjlfQ-0-t500x500.jpg" class="musicimg" alt="skillababy">
+          <br>
+          <span id="current-song"><strong>Icky Vicky Vibes</strong></span>
+          <br>
+          <span id="current-artist">By Skillababy</span>
+        </div>
+        <audio id="audio-player" controls>
+          <source src="https://cdn.glitch.global/752c6ef4-5c12-4f79-9983-43b082b0d0a7/Vibes.mp3?v=1701335897247" type="audio/mpeg">
+        </audio>
+      </section>
+      <br>
+      <div align="center">
+      <div id="now-playing">
+            <img src="https://i1.sndcdn.com/artworks-000659292679-oirntm-t500x500.jpg" class="musicimg" alt="skillababy">
+        <br>
+          <span id="current-song"><strong>The Box</strong></span>
+        <br>
+          <span id="current-artist">By Roddy Ricch</span>
+        </div>
+        <audio id="audio-player" controls>
+          <source src="https://cdn.glitch.global/752c6ef4-5c12-4f79-9983-43b082b0d0a7/thebox.mp3?v=1701336476363" type="audio/mpeg">
+        </audio>
+      </section>
+      </div>
+      <br>
+      <div align="center">
+        <div id="now-playing">
+            <img src="https://cdn.glitch.global/752c6ef4-5c12-4f79-9983-43b082b0d0a7/danny?v=1701337645894" class="musicimg" alt="idk">
+          <br>
+          <span id="current-song"><strong>The Grinch</strong></span>
+          <br>
+          <span id="current-artist">By DxnnyPhantom and Trippie Redd</span>
+        </div>
+        <audio id="audio-player" controls>
+          <source src="https://cdn.glitch.global/752c6ef4-5c12-4f79-9983-43b082b0d0a7/grinch.mp3?v=1701337605412" type="audio/mpeg">
+        </audio>
+      </section>
+      </div>
+      <br>
+      <div align="center">
+        <div id="now-playing">
+              <img src="https://upload.wikimedia.org/wikipedia/en/d/de/Polo_G_-_Go_Stupid.png" class="musicimg" alt="the box">
+          <br>
+            <span id="current-song"><strong>Noah W X Stunna 4 Vegas X Polo G X Nle Choppa Go Stupid (Sped up) (Guitar Remix)</strong></span>
+          <br>
+            <span id="current-artist">By Blade (original by nle choppa, polo G and stunna 4 vegas)</span>
+          </div>
+          <audio id="audio-player" controls>
+            <source src="https://cdn.glitch.global/752c6ef4-5c12-4f79-9983-43b082b0d0a7/lol.mp3?v=1701337952258" type="audio/mpeg">
+          </audio>
+        </section>
+        </div>
+      <div align="center">
+        <div id="now-playing">
+              <img src="https://cdn.glitch.global/752c6ef4-5c12-4f79-9983-43b082b0d0a7/thumbnails%2FScreenshot%202023-11-30%201.57.59%20AM.png?1701338306323" class="musicimg" alt="the box">
+          <br>
+            <span id="current-song"><strong>RAHHHHHHH</strong></span>
+          <br>
+            <span id="current-artist">By Alt!</span>
+          </div>
+          <audio id="audio-player" controls>
+            <source src="https://cdn.glitch.global/752c6ef4-5c12-4f79-9983-43b082b0d0a7/RAHHHH.mp3?v=1701338328292" type="audio/mpeg">
+          </audio>
+        </section>
+        </div>
+      <div align="center">
+        <div id="now-playing">
+              <img src="https://www.myinstants.com/media/instants_images/siinamota-young-girl-a.jpg" class="musicimg" alt="the box">
+          <br>
+            <span id="current-song"><strong>Young Girl A</strong></span>
+          <br>
+            <span id="current-artist">By siinamota</span>
+          </div>
+          <audio id="audio-player" controls>
+            <source src="https://cdn.glitch.global/752c6ef4-5c12-4f79-9983-43b082b0d0a7/yga.mp3?v=1701338737314" type="audio/mpeg">
+          </audio>
+        </section>
+        </div>
+      <div align="center">
+        <div id="now-playing">
+              <img src="https://i1.sndcdn.com/artworks-wWKCeLMMPjBuz5Wo-U0robA-t500x500.jpg" class="musicimg" alt="the box">
+          <br>
+            <span id="current-song"><strong>Lovely Bastards</strong></span>
+          <br>
+            <span id="current-artist">By YATASHIGANG, ZWE1HVNDXR</span>
+          </div>
+          <audio id="audio-player" controls>
+            <source src="https://cdn.glitch.global/752c6ef4-5c12-4f79-9983-43b082b0d0a7/lovely.mp3?v=1701338724008" type="audio/mpeg">
+          </audio>
+        </section>
+        </div>
+      <div align="center">
+        <div id="now-playing">
+              <img src="https://i1.sndcdn.com/artworks-b0dKLLQ6zTLtYNhg-oUSyOg-t500x500.jpg" class="musicimg" alt="the box">
+          <br>
+            <span id="current-song"><strong>Meet the frownies x Lovely Bastards</strong></span>
+          <br>
+            <span id="current-artist">By Unknown</span>
+          </div>
+          <audio id="audio-player" controls>
+            <source src="https://cdn.glitch.me/752c6ef4-5c12-4f79-9983-43b082b0d0a7/ez.mp3?v=1701358759896" type="audio/mpeg">
+          </audio>
+        </section>
+        </div>
+      <div align="center">
+        <br>
+        <div id="now-playing">
+              <img src="https://i1.sndcdn.com/artworks-x1nt52AScKHixatw-fsAQ7g-t500x500.jpg" class="musicimg" alt="the box">
+          <br>
+            <span id="current-song"><strong>Paranoia</strong></span>
+          <br>
+            <span id="current-artist">By Kentenshi</span>
+          </div>
+          <audio id="audio-player" controls>
+            <source src="https://cdn.glitch.global/752c6ef4-5c12-4f79-9983-43b082b0d0a7/ken.mp3?v=1701389872695" type="audio/mpeg">
+          </audio>
+        </section>
+        </div>
+    </main>
+</body>
+  <script>
+    const songList = document.getElementById('song-list');
+    const currentSong = document.getElementById('current-song');
+    const currentArtist = document.getElementById('current-artist');
+    const audioPlayer = document.getElementById('audio-player');
+
+    // Add event listener for song selection
+    songList.addEventListener('click', function(e) {
+      if (e.target && e.target.nodeName === 'LI') {
+        const songTitle = e.target.querySelector('.song-title').textContent;
+        const songArtist = e.target.querySelector('.song-artist').textContent;
+
+        currentSong.textContent = songTitle;
+        currentArtist.textContent = songArtist;
+
+        // Update audio source and play the selected song
+        audioPlayer.src = `${songTitle}.mp3`;
+        audioPlayer.play();
+      }
+    });
+  </script>
+</html>

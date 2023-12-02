@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apps</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="/resources/img/icon.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <style>
+    @font-face {
+  font-family: psreg;
+  src: url(/resources/fonts/psbold.ttf);
+}
+
+@font-face {
+  font-family: psbold;
+  src: url(/resources/fonts/psbold.ttf);
+}
+    body {
+      background-color: #222;
+      color: #fff;
+      font-family: "Montserrat", sans-serif;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .back-button {
+      position: fixed;
+      top: 1rem;
+      left: 1rem;
+      background-color: yellow;
+      color: black;
+      padding: 0.5rem 1rem;
+      border-radius: 0.5rem;
+      font-size: 1.2rem;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .fullscreen {
+      position: fixed;
+      top: 1rem;
+      left: 1rem;
+      background-color: white;
+      color: black;
+      padding: 0.5rem 1rem;
+      border-radius: 0.5rem;
+      font-size: 1.2rem;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+
+    fullscreen:hover {
+      background-color: gray;
+    }
+    .back-button:hover {
+      background-color: gray;
+    }
+
+  #game-container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 780px;
+}
+
+#game-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  margin-bottom: 0px;
+}
+
+#server-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#server-buttons a {
+  display: block;
+  position: relative;
+  top: 0;
+  margin: 0 10px;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #EFEFEF;
+  background-color: #DD4A68;
+  transition: background-color 0.3s ease;
+}
+
+#server-buttons a:hover {
+  background-color: #FF6B88;
+}
+
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1f1f1f;
+    z-index: 9999;
+    user-select: none;
+}
+
+#loader.hide {
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#loader h1 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 7vw;
+    font-weight: 700;
+    text-align: center;
+}
+
+#loader h1 span {
+    color: #ff0006;
+}
+
+#loader p {
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 1.2vw;
+    font-weight: 500;
+    text-align: center;
+}
+
+#loader .loader {
+    position: absolute;
+    top:63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 6vw;
+    height:6vw;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    border-top-color: #941417;
+    animation: loader 1s linear infinite;
+}
+
+@keyframes loader {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+  </style>
+</head>
+
+<body>
+  <header>
+    <a href="/math/" class="back-button">&larr; Back</a>
+  </header>
+  <div id="game-container">
+    <iframe id="gameFramey"></iframe>
+  </div>
+  <script>
+    var iframe = document.getElementById("gameFramey");
+
+c   backButton.addEventListener('click', () => {
+      window.history.back();
+    });
+  </script>
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const file = urlParams.get('file');
+    const type = urlParams.get('type')
+      document.getElementById('gameFramey').src = "/math/src/" + file
+    </script>
+</body>
+  <script src="/assets/scripts/settings1.js"></script>
+  <script src="/assets/scripts/settings2.js"></script>
+</html>
