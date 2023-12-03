@@ -109,33 +109,37 @@ input[type="color"]:hover {
 }
 
 input:focus {
-  width: 600px;
+  width: 300px;
 }
 
 button {
   width: fit-content;
   height: 30px;
-  border-radius: 10px;
+  border-radius: 5px;
   color: white;
   border-style: solid;
   margin-bottom: 5px;
-  background: #adad43;
+  background: gold;
   cursor: pointer;
 }
 
 button:hover {
-  background: #6b6b0f;
-  color: w;
+  background: darkgoldenrod;
+  color: white;
 }
 
 .input2 {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+  cursor: text;
+  border-style: solid;
+  margin-top: 10px;
   border: none;
-  background: transparent;
+  background: black;
+  color: white;
   width: 200px;
   padding: 10px;
   border-radius: 10px;
   outline: none;
-  color: var(--text-secondary);
 }
 
 .imgbtn {
@@ -145,7 +149,7 @@ button:hover {
 }
 
 .btn {
-  border-radius: 15px;
+  border-radius: 10px;
   margin-top: 10px;
   background: transparent;
   color: white;
