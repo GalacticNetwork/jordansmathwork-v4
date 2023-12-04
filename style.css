@@ -44,7 +44,7 @@ p {
   position: relative;
   float: left;
   margin-right: 10px;
-  transition: 0.9s;
+  transition: 1s;
 }
 .gameimg:hover {
   cursor: pointer;
