@@ -223,3 +223,19 @@ button:hover {
   animation: shake 0.6s;
   animation-iteration-count: infinite;
 }
+.footer {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  bottom: 0;
+  width: 100%;
+}
+
+.copyright {
+  position: absolute;
+  left: 5px;
+}
+a.small {
+  font-size: 16px;
+}
