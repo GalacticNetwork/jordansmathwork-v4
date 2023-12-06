@@ -239,3 +239,23 @@ button:hover {
 a.small {
   font-size: 16px;
 }
+
+    a.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: gold;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+        transition-duration: 0.30s;
+}
+    a.button:hover {
+  width: px;
+padding: 15px;
+  background-color: darkgoldenrod;
+      border-radius: 5px;
+}

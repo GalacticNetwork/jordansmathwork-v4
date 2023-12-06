@@ -10,6 +10,6 @@ function ab() {
       iframe.style.margin = "0";
       iframe.referrerpolicy = "no-referrer";
       iframe.allow = "fullscreen";
-      iframe.src = "https://kgnpxl-8080.csb.app/cod";
+      iframe.src = "https://hr6mtg-8080.csb.app/cod";
       win.document.body.appendChild(iframe);
 }

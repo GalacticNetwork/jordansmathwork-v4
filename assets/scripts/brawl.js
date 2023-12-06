@@ -10,6 +10,6 @@ function ab() {
       iframe.style.margin = "0";
       iframe.referrerpolicy = "no-referrer";
       iframe.allow = "fullscreen";
-      iframe.src = "https://hr6mtg-8080.csb.app/blox";
+      iframe.src = "https://hr6mtg-8080.csb.app/geforce/brawlhalla.html";
       win.document.body.appendChild(iframe);
 }
