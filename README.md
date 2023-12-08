@@ -1,4 +1,4 @@
-# Jordansmathwork V4
+<h1 align="center"><strong>Galactic</strong></h1>
 An evolution of one of the greatest game sites!
 
 ### Features:
