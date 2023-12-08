@@ -1,3 +1,6 @@
+<p align="center"><img src="https://raw.githubusercontent.com/GalacticNetwork/jordansmathwork-v4/main/assets/img/jmw.png" height="200">
+</p>
+
 <h1 align="center"><strong>JordansMathWork V4</strong></h1>
 <p align="center">An evolution of one of the greatest game sites!</p>
 
