@@ -1,4 +1,4 @@
-<div align="center"
+<div align="center">
   # Jordansmathwork V4
 An evolution of one of the greatest game sites!
   </div>
