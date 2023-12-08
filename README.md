@@ -6,9 +6,8 @@
 
 ### Features:
 - 150+ games
-- about:blank systems
+- automatic about:blank system
 - Clean UI
-- Nice design
 - trusted by 20k
 - an extra exploit page
 - discord chatbox
