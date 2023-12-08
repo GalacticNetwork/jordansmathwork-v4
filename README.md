@@ -1,5 +1,5 @@
 <h1 align="center"><strong>JordansMathWork V4</strong></h1>
-An evolution of one of the greatest game sites!
+<p align="center">An evolution of one of the greatest game sites!</p>
 
 ### Features:
 - 150+ games
