@@ -10,6 +10,6 @@ function ab() {
       iframe.style.margin = "0";
       iframe.referrerpolicy = "no-referrer";
       iframe.allow = "fullscreen";
-      iframe.src = "https://6z3pk3-8080.csb.app/client/https://s2g3.onrender.com/play/activision-publishing-inc/7935/call-of-duty.html";
+      iframe.src = "https://gqwlt5-8080.csb.app/client/https://s2g3.onrender.com/play/activision-publishing-inc/7935/call-of-duty.html";
       win.document.body.appendChild(iframe);
 }
