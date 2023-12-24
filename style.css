@@ -282,39 +282,3 @@ padding: 15px;
   color: black;
 }
 
-.options {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  right: 0;
-  background-color: #adad43;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: none;
-}
-
-.options li {
-  padding: 10px;
-  cursor: pointer;
-  color: black;
-  font-size: 16px;
-}
-
-.options li:hover {
-  background-color: #adad43;
-}
-
-.select-box {
-  margin: 0 auto;
-}
-
-#reset {
-  margin-top: 10%;
-}
-
-#home {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
