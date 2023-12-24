@@ -15,7 +15,7 @@ body {
   text-align: center;
   font-size: 5vw;
   line-height: 1.7;
-  color: yellow;
+  color: orange;
   background: linear-gradient(145deg, #1a1a1a, #080808);
   background-position: center;
   background-size: cover;
@@ -49,7 +49,7 @@ p {
 .gameimg:hover {
   cursor: pointer;
   transform: rotate(-10deg) scale(1.3);
-  box-shadow: 0 0 1vw #181818;
+  box-shadow: 0 0 1vw orange;
 }
 .tab-bar {
   backdrop-filter: blur(10px);
@@ -57,7 +57,7 @@ p {
   justify-content: center;
   align-items: center;
   /* Center vertically */
-  background-color: #262626;
+  background-color: black;
   padding: 5px 0;
 }
 
@@ -79,7 +79,7 @@ p {
 }
 
 .tab:hover {
-  color: yellow;
+  color: orange;
 }
 
 .tab-content {
@@ -121,15 +121,15 @@ button {
   width: fit-content;
   height: 30px;
   border-radius: 5px;
-  color: white;
+  color: orange;
   border-style: solid;
   margin-bottom: 5px;
-  background: gold;
+  background: black;
   cursor: pointer;
 }
 
 button:hover {
-  background: darkgoldenrod;
+  background: orangered;
   color: white;
 }
 
@@ -140,7 +140,7 @@ button:hover {
   margin-top: 10px;
   border: none;
   background: black;
-  color: white;
+  color: orange;
   width: 200px;
   padding: 10px;
   border-radius: 10px;
@@ -220,7 +220,7 @@ button:hover {
 }
 
 .container:hover {
-  animation: shake 1.0s;
+  animation: shake 0.6s;
   animation-iteration-count: infinite;
 }
 .footer {
@@ -243,8 +243,8 @@ a.small {
     a.button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: gold;
-  color: black;
+  background-color: orange;
+  color: white;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
@@ -256,7 +256,7 @@ a.small {
     a.button:hover {
   width: px;
 padding: 15px;
-  background-color: darkgoldenrod;
+  background-color: orange;
       border-radius: 5px;
 }
 
@@ -272,7 +272,6 @@ padding: 15px;
   position: relative;
   width: 200px;
   cursor: pointer;
-   font-size: 16px;
 }
 
 .selected-option {
@@ -298,7 +297,6 @@ padding: 15px;
   padding: 10px;
   cursor: pointer;
   color: black;
-  font-size: 16px;
 }
 
 .options li:hover {

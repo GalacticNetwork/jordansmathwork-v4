@@ -10,6 +10,6 @@ function ab() {
       iframe.style.margin = "0";
       iframe.referrerpolicy = "no-referrer";
       iframe.allow = "fullscreen";
-      iframe.src = "https://gqwlt5-8080.csb.app/client/https://educationbluesky.com/play/electronic-arts/1353/ea-sports-fc-mobile-24-soccer";
+      iframe.src = "https://gqwlt5-8080.csb.app/client/https://alan-turing-wa1z.onrender.com/play/electronic-arts/1353/ea-sports-fc-mobile-24-soccer";
       win.document.body.appendChild(iframe);
 }

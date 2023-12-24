@@ -10,6 +10,6 @@ function ab() {
       iframe.style.margin = "0";
       iframe.referrerpolicy = "no-referrer";
       iframe.allow = "fullscreen";
-      iframe.src = "https://gqwlt5-8080.csb.app/client/https://s2g3.onrender.com/play/devsisters-corporation/3475/cookie-run.html";
+      iframe.src = "https://gqwlt5-8080.csb.app/client/https://alan-turing-wa1z.onrender.com/play/devsisters-corporation/3475/cookie-run.html";
       win.document.body.appendChild(iframe);
 }
