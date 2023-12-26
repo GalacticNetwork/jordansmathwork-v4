@@ -1,0 +1,4 @@
+body[theme="classic"] {
+  --bgcolor: linear-gradient(145deg, #1a1a1a, #080808);
+  --txtcolor: yellow;
+}
