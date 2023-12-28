@@ -54,3 +54,8 @@ body[theme="3kh0"] {
   --navbar: #9fd39c;
   --txtcolor: #4caf50;
 }
+body[theme="rogue"] {
+  --bgcolor: #D04343;
+  --navbar: #D04343;
+  --txtcolor: #310707;
+}

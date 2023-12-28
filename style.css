@@ -241,8 +241,13 @@ button:hover {
   left: 5px;
 }
 
+a.credit {
+  color: white;
+}
+
 a.small {
-  font-size: 11px;
+  background: white;
+  font-size: 19px;
 }
 
 a.button {

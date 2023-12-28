@@ -11,7 +11,7 @@ try {
 if (!inFrame && !navigator.userAgent.includes("Firefox")) {
     const popup = open("about:blank", "_blank")
     if (!popup || popup.closed) {
-        alert("Allow popups and redirects so we can hide your history (reload when you enabled)")
+        alert("Allow popups and redirects so we can hide your history (reload when you enabled). By going to this site, you agree to the tos on /info.html.")
     } else {
         const doc = popup.document
         const iframe = doc.createElement("iframe")
