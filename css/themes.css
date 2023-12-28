@@ -1,4 +1,56 @@
 body[theme="classic"] {
   --bgcolor: linear-gradient(145deg, #1a1a1a, #080808);
+  --navbar: #262626;
   --txtcolor: yellow;
+}
+
+body[theme="light"] {
+  --bgcolor: gray;
+  --navbar: #a1a1a1;
+  --txtcolor: black;
+}
+body[theme="cornhub"] {
+  --bgcolor: black;
+  --navbar: #6e2d11;
+  --txtcolor: orange;
+}
+body[theme="midnight"] {
+  --bgcolor: rgb(4, 24, 56);
+  --navbar: #000042;
+  --txtcolor: black;
+}
+body[theme="legacyv3"] {
+  --bgcolor: #212121;
+  --navbar: #706529;
+  --txtcolor: #adad43;
+}
+body[theme="discord"] {
+  --bgcolor: #36393F;
+  --navbar: #8992fb;
+  --txtcolor: #5865F2;
+}
+body[theme="incognito"] {
+  --bgcolor: #161923;
+  --navbar: #044321;
+  --txtcolor: #3cb371;
+}
+body[theme="cosmic"] {
+  --bgcolor: #282834;
+  --navbar: #0e01c6;
+  --txtcolor: #082f59;
+}
+body[theme="cherry"] {
+  --bgcolor: #d37979;
+  --navbar: #df62be;
+  --txtcolor: #240017;
+}
+body[theme="ocean"] {
+  --bgcolor: #7fcdff;
+  --navbar: #064273;
+  --txtcolor: #def3f6;
+}
+body[theme="3kh0"] {
+  --bgcolor: #1c1c1c;
+  --navbar: #9fd39c;
+  --txtcolor: #4caf50;
 }

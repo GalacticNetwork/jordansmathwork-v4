@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jordansmathwork | Settings</title>
   <link rel="stylesheet" type="text/css" href="/style.css" />
-   <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css">
+  <link rel="stylesheet" type="text/css" href="/css/themes.css" />
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css">
   <link rel="icon" href="/assets/img/jmw.png" />
-    <link rel="shortcut icon" href="/assets/img/jmw.png" />
+  <link rel="shortcut icon" href="/assets/img/jmw.png" />
 </head>
-<body>
+
+<body theme="classic">
   <div class="tab-bar">
     <div class="container">
-          <img src="/assets/img/jmw.png" style="
+      <img src="/assets/img/jmw.png" style="
             border-radius: 25px;
             padding: 20px;
             width: 50px;
@@ -23,12 +26,12 @@
             display: block;
             ">
     </div>
-                  <p><strong>v4</strong></p>
-      <a href="/" class="tab" data-tab="home"><i class="fas fa-home"></i> Home</a>
-      <a href="/gs" class="tab" data-tab="google"><i class="fas fa-gamepad"></i> Games</a>
-           <a href="/math" class="tab" data-tab="win11"><i class="fab fa-app-store-ios"></i> Apps</a>
-      <a href="/settings" class="tab" data-tab="brave"><i class="fas fa-cog"></i> Settings</a>
-     <a href="/chat" class="tab" data-tab="brave"><i class="fa-regular fa-comments"></i> Chatbox</a>
+    <p><strong>v4</strong></p>
+    <a href="/" class="tab" data-tab="home"><i class="fas fa-home"></i> Home</a>
+    <a href="/gs" class="tab" data-tab="google"><i class="fas fa-gamepad"></i> Games</a>
+    <a href="/math" class="tab" data-tab="win11"><i class="fab fa-app-store-ios"></i> Apps</a>
+    <a href="/settings" class="tab" data-tab="brave"><i class="fas fa-cog"></i> Settings</a>
+    <a href="/chat" class="tab" data-tab="brave"><i class="fa-regular fa-comments"></i> Chatbox</a>
   </div>
   <div align="center">
     <h6><i class="fa-solid fa-gear"></i> Settings <br> </h6>
@@ -39,21 +42,33 @@
     <h4>Cloaking:</h4>
     <div class="buttons">
       <input class="input2" id="title" class="input" placeholder="Title" onkeyup="setTitle(this.value)">
-      <input class="input2 "id="icon" class="input" placeholder="Favicon" onkeyup="setFavicon(this.value.trim())">
+      <input class="input2 " id="icon" class="input" placeholder="Favicon" onkeyup="setFavicon(this.value.trim())">
       <button class="btn" onclick="resetTab()">Reset</button>
+      <p>To switch to an educational site, do shift + the ` key.</p>
     </div>
     <h4>Themes:</h4>
     <div class="buttons">
       <select id="themepicker">
         <option value="select">Select</option>
         <option value="classic">Classic</option>
+        <option value="light">Light</option>
+        <option value="cornhub">CornHub</option>
+        <option value="midnight">Midnight</option>
+        <option value="legacyv3">Legacy V3</option>
+        <option value="discord">Discord</option>
+        <option value="incognito">Incognito</option>
+        <option value="cosmic">Cosmic</option>
+        <option value="cherry">Cherry</option>
+        <option value="ocean">Ocean</option>
+        <option value="3kh0">3kh0 (in honor of v4)</option>
       </select>
     </div>
 </body>
-  <script src="/assets/scripts/ab.js"></script>
-  <script src="/assets/scripts/settings1.js"></script>
-  <script src="/assets/scripts/settings2.js"></script>
-  <script src="/assets/scripts/autoab.js"></script>
-  <script src="/assets/scripts/cloaktheme.js"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="/assets/scripts/ab.js"></script>
+<script src="/assets/scripts/settings1.js"></script>
+<script src="/assets/scripts/settings2.js"></script>
+<script src="/assets/scripts/autoab.js"></script>
+<script src="/js/themes.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="/js/panic.js"></script>
 </html>
