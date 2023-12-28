@@ -7,7 +7,7 @@ html {
 }
 
 h4 {
-  text-shadow: 0 0 30px rgba(255, 255, 0, 0.7);
+  text-shadow: 0 0 30px var(--txtcolor);
 }
 
 body {
@@ -127,12 +127,12 @@ button {
   color: white;
   border-style: solid;
   margin-bottom: 5px;
-  background: gold;
+  background: var(--txtcolor);
   cursor: pointer;
 }
 
 button:hover {
-  background: darkgoldenrod;
+  background: var(--txtcolor);
   color: white;
 }
 
@@ -248,7 +248,7 @@ a.small {
 a.button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: gold;
+  background-color: var(--txtcolor);
   color: black;
   text-align: center;
   text-decoration: none;
@@ -262,7 +262,7 @@ a.button {
 a.button:hover {
   width: px;
   padding: 15px;
-  background-color: darkgoldenrod;
+  background-color: var(--txtcolor);
   border-radius: 5px;
 }
 

@@ -47,7 +47,7 @@ body[theme="cherry"] {
 body[theme="ocean"] {
   --bgcolor: #7fcdff;
   --navbar: #064273;
-  --txtcolor: #def3f6;
+  --txtcolor: gray;
 }
 body[theme="3kh0"] {
   --bgcolor: #1c1c1c;
