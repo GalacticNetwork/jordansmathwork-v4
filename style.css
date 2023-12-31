@@ -306,19 +306,47 @@ a.ez:hover {
   border: 5px solid black;
   transform: rotate(-15deg);
 }
-      .grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.randomgame {
+   font-family: 'Montserrat', sans-serif;
+  appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: var(--bgcolor);
+  color: white;
+  padding: 0px 46px;
+  font-size: 24px;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  height: px;
+  width: 500px;
 }
 
-.left-column {
-  width: 280%;
-  grid-column: 1 / 1;
+  .randomgame:hover {
+  background: var(--bgcolor);
 }
 
-.right-column {
-  width: 150%;
-  grid-column: 3 / 3;
+  .randomgame:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px var(--bgcolor);
 }
 
+option {
+   border-radius: 10px;
+  background: var(--bgcolor);
+}
 
+#themepicker {
+  text-shadow: 0 0 30px rgba(255, 255, 255, 0.7);
+  color: var(--color);
+  background-color: var(--background);
+  border-color: var(--color);
+  width: 150px;
+  height: 30px;
+  border-style: solid;
+  border-radius: 8px;
+  font-family: "psreg";
+  font-size: 18px;
+  transition-timing-function: ease-in-out;
+  transition: 1s;
+}

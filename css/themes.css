@@ -59,3 +59,18 @@ body[theme="rogue"] {
   --navbar: #D04343;
   --txtcolor: #310707;
 }
+body[theme="blooket"] {
+  --bgcolor: #0dc2cf;
+  --navbar: #ce0db4;
+  --txtcolor: #9a49aa;
+}
+body[theme="kahoot"] {
+  --bgcolor: #46178f;
+  --navbar: #292037;
+  --txtcolor: #786d88;
+}
+body[theme="versatile"] {
+  --bgcolor: black;
+  --navbar: #262626;
+  --txtcolor: #d7cccc;
+}
