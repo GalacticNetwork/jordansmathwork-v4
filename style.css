@@ -306,3 +306,19 @@ a.ez:hover {
   border: 5px solid black;
   transform: rotate(-15deg);
 }
+      .grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left-column {
+  width: 280%;
+  grid-column: 1 / 1;
+}
+
+.right-column {
+  width: 150%;
+  grid-column: 3 / 3;
+}
+
+
