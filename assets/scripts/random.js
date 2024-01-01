@@ -29,7 +29,13 @@ function randomLink() {
 "/gs/files.html?file=among-us&type=local",
 "/gs/files.html?file=oldvsnew&type=local",
 "/gs/files.html?file=1v1-battle&type=local",
-
+    "/gs/files.html?file=tiny-fishing&type=local",
+    "/gs/files.html?file=vex/7&type=local",
+    "/gs/files.html?file=we-become-what-we-behold&type=local",
+    "/gs/files.html?file=slope-2&type=local",
+    "/gs/files.html?file=retro-bowl&type=local",
+    "/gs/files.html?file=retro-bowl-college&type=local",
+    "/gs/files.html?file=mario-combat&type=local",
 
   ];
   var randomIndex = Math.floor(Math.random() * links.length);
