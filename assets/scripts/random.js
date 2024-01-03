@@ -36,6 +36,20 @@ function randomLink() {
     "/gs/files.html?file=retro-bowl&type=local",
     "/gs/files.html?file=retro-bowl-college&type=local",
     "/gs/files.html?file=mario-combat&type=local",
+    "/gs/files.html?file=johnny-trigger&type=local",
+    "/gs/files.html?file=fire-boy-and-water-girl&type=local",
+    "/gs/files.html?file=FNF&type=local",
+    "/gs/files.html?file=football-legends&type=local",
+    "/gs/files.html?file=fnaf/3&type=local",
+    "/gs/files.html?file=four-colors&type=local",
+    "/gs/files.html?file=minecraft-classic&type=local",
+    "/gs/files.html?file=osu&type=local",
+    "/gs/files.html?file=neal.fun&type=local",
+    "/gs/files.html?file=parking-fury/3&type=local",
+    "/gs/files.html?file=pokemon/emerald&type=local",
+    "/gs/files.html?file=slope-2&type=local",
+    "/gs/files.html?file=snake&type=local",
+    "/gs/files.html?file=snowrider3d&type=local",
 
   ];
   var randomIndex = Math.floor(Math.random() * links.length);
