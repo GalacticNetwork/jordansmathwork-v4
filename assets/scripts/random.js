@@ -24,7 +24,7 @@ function randomLink() {
 "/gs/files.html?file=shell-shockers&type=local",
 "/gs/files.html?file=ovo&type=3kh0",
 "/gs/files.html?file=fortnite&type=local",
-"/gs/files.html?file=roblox&type=local",
+"/gs/files.html?file=rblx&type=local",
 "/gs/files.html?file=angry-birds&type=local",
 "/gs/files.html?file=among-us&type=local",
 "/gs/files.html?file=oldvsnew&type=local",
