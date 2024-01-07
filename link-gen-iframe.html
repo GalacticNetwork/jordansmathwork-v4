@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <style>
+      body {
+        background: black;
+      }
+      .randomlinks {
+   font-family: 'Montserrat', sans-serif;
+  appearance: none;
+  border-style: solid;
+  border-radius: 10px;
+  background: var(--bgcolor);
+  color: white;
+  padding: 0px 46px;
+  font-size: 24px;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  height: px;
+  width: 500px;
+}
+
+  .randomlinks:hover {
+  background: var(--bgcolor);
+}
+
+  .randomlinks:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px var(--bgcolor);
+}
+      </style>
+  </head>
+  <body>
+    <div align="center">
+      <br>
+      <br>
+    <button class="randomlinks" onclick="randomLinks()">Click here for a randomly generated link!</button>
+    </div>
+  </body>
+  <script>
+    function randomLinks() {
+  var links = [
+    "https://school.stem-challenges.quest/",
+    "https://worksheets-from.tlochsta.cloud/",
+"https://more-from.tlochsta.cloud/",
+"https://tutoring.easyreadwrite.xyz/",
+"https://dash.schoolcharts.lat/",
+"//getridof.chubsinfestation.design",
+"//jmw.chubs.tech",
+"//jmw.tethers.ink",
+"//jmw.tethers.wiki",
+"https://portfolio.tether-dev.com/",
+"//more.education.pro",
+"//jmw.tethersmathwebsite.app",
+"//dash.webapplication.design",
+"//practice.readinghelper.online",
+"https://steps.cookiedoughexploit.xyz/",
+"//buy.fastservices.buzz",
+"//jmw.algebrashelper.com",
+"https://ihate.citrik.design/",
+"//jordansmathwork-v4.vercel.app",
+"//jmw-v4.netlify.app",
+
+  ];
+  var randomIndex = Math.floor(Math.random() * links.length);
+  window.open(links[randomIndex]);
+}
+
+
+
+
+    </script>
+</html>
