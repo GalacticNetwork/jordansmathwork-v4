@@ -11,23 +11,8 @@
   <link rel="stylesheet" type="text/css" href="/style.css" />
   <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css">
   <meta name="990307346a802b31ebca359cf92b73af820e63c0" content="990307346a802b31ebca359cf92b73af820e63c0" />
-  <style>
-    #draggableButton {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-
-    #button {
-      cursor: move;
-      padding: 10px 20px;
-      background-color: #9c27b0;
-      color: #fff;
-      border: none;
-      border-radius: 5px;
-      outline: none;
-    }
+  <style media="screen">
+   
   </style>
 </head>
 
@@ -57,14 +42,13 @@
   <div class="tab-bar">
     <div class="container">
       <img src="/assets/img/jmw.png" style="
-            border-radius: 25px;
-            padding: 20px;
-            width: 50px;
-            height: px;
-            margin-left: auto;
-            margin-right: auto;
-            display: block;
-            ">
+        border-radius: 25px;
+        padding: 20px;
+        width: 50px;
+        height: px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;">
     </div>
     <p><strong>v4</strong></p>
     <a href="/" class="tab" data-tab="home"><i class="fas fa-home"></i> Home</a>
@@ -74,6 +58,8 @@
     <a href="/chat" class="tab" data-tab="brave"><i class="fa-regular fa-comments"></i> Chatbox</a>
   </div>
   <div align="center">
+    <div id="content"></div>
+    <div id="report"></div>
     <h6>Ex<span>pl</span>oits</h6>
     <p>if you want to add it to your computer, drag it to your bookmarks bar (this wont work if javascript: is blocked)</p>
     <a class="button"
@@ -99,49 +85,4 @@
 <script src="/js/panic.js"></script>
 <script src="/js/themes.js"></script>
 <script src="/js/index.js"></script>
-<script>
-  // Get the button element
-  var button = document.getElementById("button");
-
-  // Initialize the position variables
-  var posX = 0,
-    posY = 0,
-    mouseX = 0,
-    mouseY = 0;
-
-  // Attach event listeners
-  button.addEventListener("mousedown", dragStart, false);
-  button.addEventListener("mouseup", dragEnd, false);
-
-  function dragStart(e) {
-    // Get the initial mouse position
-    mouseX = e.clientX;
-    mouseY = e.clientY;
-
-    // Get the initial button position
-    posX = button.offsetLeft;
-    posY = button.offsetTop;
-
-    // Attach the drag events
-    document.addEventListener("mousemove", drag, false);
-    button.addEventListener("mouseup", dragEnd, false);
-  }
-
-  function drag(e) {
-    // Calculate the distance moved by the mouse
-    var deltaX = e.clientX - mouseX;
-    var deltaY = e.clientY - mouseY;
-
-    // Update the button position
-    button.style.left = posX + deltaX + "px";
-    button.style.top = posY + deltaY + "px";
-  }
-
-  function dragEnd() {
-    // Remove the drag events
-    document.removeEventListener("mousemove", drag, false);
-    button.removeEventListener("mouseup", dragEnd, false);
-  }
-</script>
-
 </html>
