@@ -1,50 +1,6 @@
 function ab() {
-  var viewFrame;
-  try {
-    viewFrame = window !== top;
-  } catch (f) {
-    viewFrame = !0;
-  }
-  if (!viewFrame && !navigator.userAgent.includes("Firefox")) {
-    let c = open("about:blank", "_blank");
-    if (!c || c.closed)
-      alert(
-        "Allow popups and redirects to hide this from showing up in your history.\nThanks!JMW",
-      );
-    else {
-      let b = c.document,
-        d = b.createElement("iframe"),
-        a = d.style,
-        e = b.createElement("link");
-      (b.title = "Classes"),
-        (e.rel = "icon"),
-        (e.href = "https://ssl.gstatic.com/classroom/favicon.png"),
-        (d.src = location.href),
-        (a.position = "fixed"),
-        (a.top = a.bottom = a.left = a.right = 0),
-        (a.border = a.outline = "none"),
-        (a.width = a.height = "100%"),
-        b.body.appendChild(d),
-        location.replace("https://classroom.google.com");
-    }
-  }
-  document.addEventListener("keypress", function (d) {
-    if ("Enter" === d.key) {
-      let e = document.getElementById("exploit").value,
-        f = window.open("about:blank", "_blank"),
-        b = f.document,
-        c = b.createElement("iframe"),
-        a = c.style;
-      b.createElement("link"),
-        (b.title = "_blank"),
-        (c.src = e),
-        (a.position = "fixed"),
-        (a.border = a.outline = "none"),
-        (a.top = a.bottom = a.left = a.right = 0),
-        (a.width = a.height = "100%"),
-        b.body.appendChild(c);
-    }
-  });
+  let inFrame; try { inFrame = window !== top; } catch (e) { inFrame = true; }
+  if (!inFrame && !navigator.userAgent.includes("Firefox")) { const popup = open("about:blank", "_blank"); if (!popup || popup.closed) { alert("Please allow popups and redirects."); } else { const doc = popup.document; const iframe = doc.createElement("iframe"); const style = iframe.style; const link = doc.createElement("link"); const name = localStorage.getItem("name") || "Classes"; const icon = localStorage.getItem("icon") || "https://ssl.gstatic.com/classroom/favicon.png"; doc.title = name; link.rel = "icon"; link.href = icon; iframe.src = location.href; style.position = "fixed"; style.top = style.bottom = style.left = style.right = 0; style.border = style.outline = "none"; style.width = style.height = "100%"; doc.head.appendChild(link); doc.body.appendChild(iframe); location.replace("https://classroom.google.com"); } }
 }
 function buffedAB() {
   var myWindow1 = window.open(
@@ -54,7 +10,7 @@ function buffedAB() {
   );
   myWindow1.document.write(
     '<!DOCTYPE html>\n\
-<title>Google</title>\n\
+<title>Classes</title>   <link rel="icon" href="https://ssl.gstatic.com/classroom/favicon.png"/><link rel="shortcut icon" href="https://ssl.gstatic.com/classroom/favicon.png"/>\n\
 <p><iframe src="' +
       "https://" +
       window.location.host +
