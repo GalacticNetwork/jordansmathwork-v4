@@ -12,6 +12,13 @@
 - trusted by 20k
 - an extra exploit page
 - chatbox
+# Credits
+- <a href="//github.com/slqntdevss">Slqnt - settings and themes and most of the css</a>
+- <a href="//github.com/albios">Albinus - files.html and apps page</a>
+- <a href="//sites.google.com/view/classroom6x">Classroom6x - Most of the game src files</a>
+- <a href="//github.com/3kh0">3kh0 - most of the game files</a>
+- <a href="//github.com/binbashbanana">BinBashBanana -.swf game files</a>
+- <a href="//github.com/titaniumnetwork-dev/Alloy">Titanium Network - proxy we use for apps</a>
 # Deployment
 <a target="_blank" href="https://heroku.com/deploy/?template=https://github.com/GalacticNetwork/jordansmathwork-v4"><img alt="Deploy to Heroku" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/heroku.svg"></a>
 <a target="_blank" href="https://replit.com/github/GalacticNetwork/jordansmathwork-v4"><img alt="Run on Replit" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg"></a>
