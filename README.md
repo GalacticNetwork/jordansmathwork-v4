@@ -14,7 +14,7 @@
 - chatbox
 # Credits
 - <a href="//github.com/slqntdevss">Slqnt - settings and themes and most of the css</a>
-- <a href="//github.com/albios">Albinus - files.html and apps page</a>
+- <a href="">Albinus - files.html and apps page</a>
 - <a href="//sites.google.com/view/classroom6x">Classroom6x - Most of the game src files</a>
 - <a href="//github.com/3kh0">3kh0 - most of the game files</a>
 - <a href="//github.com/binbashbanana">BinBashBanana -.swf game files</a>
