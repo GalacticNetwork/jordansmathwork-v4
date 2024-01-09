@@ -3,6 +3,7 @@
 
 <h1 align="center"><strong>JordansMathWork V4</strong></h1>
 <p align="center">An evolution of one of the greatest game sites!</p>
+<a href="//jmw.algebrashelper.com" align="center">Live demo</a>
 
 ### Features:
 - 150+ games
