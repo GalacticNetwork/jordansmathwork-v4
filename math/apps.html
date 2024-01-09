@@ -12,15 +12,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <meta name="990307346a802b31ebca359cf92b73af820e63c0" content="990307346a802b31ebca359cf92b73af820e63c0" />
   <style>
-    @font-face {
-  font-family: psreg;
-  src: url(/resources/fonts/psbold.ttf);
-}
-
-@font-face {
-  font-family: psbold;
-  src: url(/resources/fonts/psbold.ttf);
-}
     body {
       background-color: #222;
       color: #fff;
@@ -174,6 +165,26 @@
         transform: translate(-50%, -50%) rotate(360deg);
     }
 }
+    .container {
+      position: relative;
+      width: 100%;
+      height: 400px; /* Adjust as per your requirements */
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+    }
+
+    .text-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      color: red;
+    }
   </style>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-TQ8CVXYBF9"></script>
