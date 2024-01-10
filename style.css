@@ -29,6 +29,10 @@ body {
   justify-content: flex-start;
 }
 
+.motd {
+  font-size: 30px;
+}
+
 p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
