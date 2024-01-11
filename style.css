@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 @import url(css/themes.css);
-
+* {
+  padding: 0;
+  margin: 0;
+}
 html {
   height: 100%;
   width: 100%;
@@ -82,7 +85,7 @@ p {
   text-decoration: none;
   transition: color 0.3s;
   font-size: 14px;
-  width: 210px;
+  width: 200px;
 }
 
 .tab:hover {
@@ -368,4 +371,126 @@ option {
   font-size: 18px;
   transition-timing-function: ease-in-out;
   transition: 1s;
+}
+.review {
+  color: var(--txtcolor)
+}
+
+.contain {
+  margin-top: 50px;
+}
+
+ .reviewimg{
+   border-radius: 50%;
+ }
+.contain .team {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.contain .team .member {
+  width: 250px;
+  margin: 10px;
+  background: #000000;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+  padding: 25px;
+}
+
+.contain .team .member img {
+  width: 100px;
+  height: 100px;
+}
+.arrow {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  fill: #fff;
+  cursor: pointer;
+}
+
+.arrow--left {
+  left: 5px;
+  fill: "#fff";
+  background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 24 24' %3E%3Cpath d='M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z' %3E%3C/path%3E%3C/svg%3E");
+}
+
+.arrow--right {
+  left: auto;
+  right: 5px;
+  background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 24 24' %3E%3Cpath d='M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.arrow--disabled.arrow--left {
+  background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' fill='grey' viewBox='0 0 24 24' %3E%3Cpath d='M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z' %3E%3C/path%3E%3C/svg%3E");
+}
+
+.arrow--disabled.arrow--right {
+  background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' fill='grey' viewBox='0 0 24 24' %3E%3Cpath d='M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+
+.contain .team .member h3 {
+  color: #444;
+}
+
+.contain .team .member span {
+  font-size: 32px;
+  color: var(--txtcolor);
+}
+
+.contain .team .member p {
+  margin: 15px 0;
+  font-weight: 400;
+  color: var(--txtcolor);
+  font-size: 15px;
+  text-align: justify;
+}
+
+h3{
+  font-size: 16px;
+}
+.contain .team .member .btn a {
+  background: #ddd;
+  display: block;
+  float: right;
+  width: 125px;
+  margin: 0 10px;
+  padding: 10px;
+  border-radius: 6px;
+  color: #444;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+}
+
+.contain .team .member .btn a:hover {
+  background: #5a36dd;
+  color: #fff;
+}
+.smalle {
+    height: 35px;
+    padding: 20px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--theme);
+    font-size: 1rem;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-bottom: 10rem;
+    user-select: none;
+    border: none;
+    color: var(--text-secondary);
+    width: fit-content;
+    position: absolute;
+    bottom: 1rem;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
 }
