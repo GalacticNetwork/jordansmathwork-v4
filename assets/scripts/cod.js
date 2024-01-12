@@ -10,6 +10,6 @@ function ab() {
       iframe.style.margin = "0";
       iframe.referrerpolicy = "no-referrer";
       iframe.allow = "fullscreen";
-      iframe.src = "https://gqwlt5-8080.csb.app/client/https://nowgg.nl/play/devsisters-corporation/3475/cookie-run.html";
+      iframe.src = "https://8zg4gj-8080.csb.app/client/https://nowgg.nl/play/devsisters-corporation/3475/cookie-run.html";
       win.document.body.appendChild(iframe);
 }
