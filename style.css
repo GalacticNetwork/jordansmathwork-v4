@@ -14,6 +14,7 @@ h4 {
 }
 
 body {
+  overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   text-align: center;
