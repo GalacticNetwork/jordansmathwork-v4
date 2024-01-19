@@ -10,6 +10,6 @@ function ab() {
       iframe.style.margin = "0";
       iframe.referrerpolicy = "no-referrer";
       iframe.allow = "fullscreen";
-      iframe.src = "https://m3r993-8080.csb.app/client/https://nowgg.nl/play/activision-publishing-inc/7935/call-of-duty.html";
+      iframe.src = "https://lrd2r7-8080.csb.app/client/https://nowgg.nl/play/activision-publishing-inc/7935/call-of-duty.html";
       win.document.body.appendChild(iframe);
 }
