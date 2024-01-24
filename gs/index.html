@@ -82,6 +82,15 @@
       <input type="text" placeholder="Search among 200+ games..." oninput="">
     </center>
   </div>
+    <div style="background:transparent; border-color: white; border-style: solid; border-radius: 10px;" id="google_translate_element"></div>
+
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({ pageLanguage: "en", layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL }, "google_translate_element");
+      }
+    </script>
+
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   <div align="center">
     <a href="https://forms.gle/ZwGxj491oESvHwyK6">
       <img src="/assets/img/forms2.png" onerror="this.src='/assets/img/no-icon-found.png'"  class="gameimg" alt="Suggest a Game/App">

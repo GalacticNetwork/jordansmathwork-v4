@@ -496,3 +496,18 @@ option {
     left: 0;
     margin: 0 auto;
 }
+select {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  background-color: var(--bgcolor);
+  width: 150px;
+  height: 30px;
+  border-style: solid;
+  border-radius: 8px;
+  font-size: 18px;
+  transition-timing-function: ease-in-out;
+  transition: 1s;
+}
+select option {
+  background: var(--bgcolor); 
+}
