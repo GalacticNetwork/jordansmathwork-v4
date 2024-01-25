@@ -248,6 +248,7 @@ button:hover {
 .copyright {
   position: absolute;
   left: 5px;
+  font-weight: bold;
 }
 
 a.credit {
@@ -396,7 +397,7 @@ option {
 .contain .team .member {
   width: 250px;
   margin: 10px;
-  background: #000000;
+  background: #383838;
   border-radius: 6px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
   padding: 25px;
@@ -449,14 +450,15 @@ option {
 
 .contain .team .member p {
   margin: 15px 0;
-  font-weight: 400;
   color: var(--txtcolor);
   font-size: 15px;
   text-align: justify;
+  font-weight: bold;
 }
 
 .h3{
   font-size: 16px;
+  font-weight: bold;
 }
 .contain .team .member .btn a {
   background: #ddd;
@@ -502,12 +504,25 @@ select {
   background-color: var(--bgcolor);
   width: 150px;
   height: 30px;
-  border-style: solid;
   border-radius: 8px;
   font-size: 18px;
   transition-timing-function: ease-in-out;
   transition: 1s;
 }
 select option {
+  font-weight: bold;
+  color: var(--txt-color);
   background: var(--bgcolor); 
+}
+.featured {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+  transition: 0.8s;
+}
+.featured:hover {
+  transform: scale(1.3);
+  z-index: 2;
+  
 }
