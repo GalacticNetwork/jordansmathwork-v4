@@ -277,7 +277,7 @@ a.button {
 a.button:hover {
   width: px;
   padding: 15px;
-  background-color: var(--txtcolor);
+  background-color: var(--navbar);
   border-radius: 5px;
 }
 
