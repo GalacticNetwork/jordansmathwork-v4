@@ -511,7 +511,7 @@ select {
 }
 select option {
   font-weight: bold;
-  color: var(--txt-color);
+  color: black;
   background: var(--bgcolor); 
 }
 .featuredimg {
