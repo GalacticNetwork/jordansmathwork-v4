@@ -263,7 +263,8 @@ a.small {
 a.button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: var(--txtcolor);
+  font-weight: bold;
+  background-color: var(--navbar);
   color: black;
   text-align: center;
   text-decoration: none;
