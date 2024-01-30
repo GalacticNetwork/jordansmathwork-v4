@@ -19,6 +19,10 @@
 - <a href="//github.com/3kh0">3kh0 - most of the game files</a>
 - <a href="//github.com/binbashbanana">BinBashBanana -.swf game files</a>
 - <a href="//github.com/titaniumnetwork-dev/Alloy">Titanium Network - proxy we use for apps</a>
+### contributers:
+<a href="https://github.com/GalacticNetwork/3kh0-Assets/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=GalacticNetwork/3kh0-Assets" />
+</a>
 # Deployment
 <a target="_blank" href="https://heroku.com/deploy/?template=https://github.com/GalacticNetwork/jordansmathwork-v4"><img alt="Deploy to Heroku" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/heroku.svg"></a>
 <a target="_blank" href="https://replit.com/github/GalacticNetwork/jordansmathwork-v4"><img alt="Run on Replit" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg"></a>
