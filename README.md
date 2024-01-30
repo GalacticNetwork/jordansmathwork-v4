@@ -26,6 +26,6 @@
 <a target="_blank" href="https://app.netlify.com/start/deploy?repository=https://github.com/GalacticNetwork/jordansmathwork-v4"><img alt="Deploy to Netlify" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/netlify.svg"></a>
 <a target="_blank" href="https://vercel.com/new/clone?repository-url=https://github.com/GalacticNetwork/jordansmathwork-v4"><img alt="Deploy to Vercel" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/vercel.svg"></a>
 ### contributers:
-<a target="_blank" href="https://github.com/GalacticNetwork/3kh0-Assets/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=GalacticNetwork/3kh0-Assets" />
+<a target="_blank" href="https://github.com/GalacticNetwork/jordansmathwork-v4/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=GalacticNetwork/jordansmathwork-v4" />
 </a>
