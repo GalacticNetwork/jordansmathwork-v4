@@ -18,7 +18,7 @@ if (!inFrame && !navigator.userAgent.includes("Firefox")) {
         const style = iframe.style
         const link = doc.createElement("link")
 
-        const name = localStorage.getItem("name") || "Classes";
+        const name = localStorage.getItem("name") || "Home";
         const icon = localStorage.getItem("icon") || "https://ssl.gstatic.com/classroom/favicon.png";
 
         doc.title = name;
