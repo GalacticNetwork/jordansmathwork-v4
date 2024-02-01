@@ -1,9 +1,12 @@
-# syntax=docker/dockerfile:1
-FROM node:19-bullseye
+FROM node:iron-bookworm-slim
 ENV NODE_ENV=production
+
 WORKDIR /app
-COPY ["package.json", "package-lock.json*", "./"]
+
+COPY ["package.json", "./"]
+
 RUN npm install
-EXPOSE 8000
+
 COPY . .
-CMD [ "npm", "start" ]
+
+CMD [ "node", "index.js" ]
