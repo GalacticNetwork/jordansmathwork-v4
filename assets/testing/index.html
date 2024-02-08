@@ -1,62 +1,64 @@
-<style>
-  body {
-      font-family: Arial, sans-serif;
-      padding: 20px;
-  }
-
-  h1 {
+<div align="center">
+  <h1>Game List</h1>
+<a class='link button' href='#'><img height="175"
+  src="/assets/img/gameimg/roblox.png" id="img" width="175"><span
+  style="padding:3px;margin:auto;display:block;width:170px;height:25px;line-height:25px;overflow:hidden;text-align:center;white-space:nowrap">Roblox</span></a>
+  <a class='link button' href='/data/games/1v1-lol/fc.html'><img height="175"
+  src="/data/images/1v1.png" width="175"><span
+  style="padding:3px;margin:auto;display:block;width:170px;height:25px;line-height:25px;overflow:hidden;text-align:center;white-space:nowrap">1v1.LOL</span></a>
+  <a class='link button' href='/data/games/1v1-lol/fc.html'><img height="175"
+  src="/data/images/1v1.png" width="175"><span
+  style="padding:3px;margin:auto;display:block;width:170px;height:25px;line-height:25px;overflow:hidden;text-align:center;white-space:nowrap">1v1.LOL</span></a>
+  <a class='link button' href='/data/games/1v1-lol/fc.html'><img height="175"
+  src="/data/images/1v1.png" width="175"><span
+  style="padding:3px;margin:auto;display:block;width:170px;height:25px;line-height:25px;overflow:hidden;text-align:center;white-space:nowrap">1v1.LOL</span></a>
+  <a class='link button' href='/data/games/1v1-lol/fc.html'><img height="175"
+  src="/data/images/1v1.png" width="175"><span
+  style="padding:3px;margin:auto;display:block;width:170px;height:25px;line-height:25px;overflow:hidden;text-align:center;white-space:nowrap">1v1.LOL</span></a>
+  <a class='link button' href='/data/games/1v1-lol/fc.html'><img height="175"
+  src="/data/images/1v1.png" width="175"><span
+  style="padding:3px;margin:auto;display:block;width:170px;height:25px;line-height:25px;overflow:hidden;text-align:center;white-space:nowrap">1v1.LOL</span></a>
+  <a class='link button' href='/data/games/1v1-lol/fc.html'><img height="175"
+  src="/data/images/1v1.png" width="175"><span
+  style="padding:3px;margin:auto;display:block;width:170px;height:25px;line-height:25px;overflow:hidden;text-align:center;white-space:nowrap">1v1.LOL</span></a>
+  <a class='link button' href='/data/games/1v1-lol/fc.html'><img height="175"
+  src="/data/images/1v1.png" width="175"><span
+  style="padding:3px;margin:auto;display:block;width:170px;height:25px;line-height:25px;overflow:hidden;text-align:center;white-space:nowrap">1v1.LOL</span></a>
+  <a class='link button' href='/data/games/1v1-lol/fc.html'><img height="175"
+  src="/data/images/1v1.png" width="175"><span
+  style="padding:3px;margin:auto;display:block;width:170px;height:25px;line-height:25px;overflow:hidden;text-align:center;white-space:nowrap">1v1.LOL</span></a>
+</div>
+  <style>
+    a.link:hover {
+      background-color: transparent;
+      transform: scale(1.1);
+      color: black;
+      border: none;
+      padding: 1px 1px;
       text-align: center;
-  }
-
-  .translator {
-      margin-top: 20px;
-  }
-
-  .translator select,
-  .translator textarea,
-  .translator button {
-      display: block;
-      margin-bottom: 10px;
-      width: 100%;
-  }
-
-  #output-text {
-      margin-top: 10px;
-      padding: 10px;
-      border: 1px solid #ccc;
-  }
-
-</style>
-<div id="google_translate_element"></div>
-
-<script type="text/javascript">
-  function googleTranslateElementInit() {
-    new google.translate.TranslateElement({ pageLanguage: "en", layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL }, "google_translate_element");
-  }
-</script>
-
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-<h1>hello</h1>
-
-<script>
-  document.getElementById('translate-btn').addEventListener('click', translateText);
-
-  function translateText() {
-      const inputText = document.getElementById('input-text').value;
-      const select = document.getElementById('translator-select');
-      const targetLanguage = select.options[select.selectedIndex].value;
-
-      const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=${targetLanguage}&dt=t&q=${encodeURI(inputText)}`;
-
-      fetch(url)
-          .then(response => response.json())
-          .then(data => {
-              const translatedText = data[0][0][0];
-              document.getElementById('output-text').innerText = translatedText;
-          })
-          .catch(error => {
-              console.error('Error:', error);
-          });
-  }
-
-</script>
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 2px 2px;
+      cursor: pointer;
+      border-radius: 12px;
+    }
+    #img {
+      border-radius: 20px;
+    }
+    .button {
+      background-color: transparent;
+      border: none;
+      color: black;
+      padding: 1px 1px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 2px 2px;
+      cursor: pointer;
+      border-radius: 12px;
+      transition: background-color 0.3s,
+        color 0.2s, transform .4s;
+    }
+  </style>
