@@ -10,6 +10,6 @@ function ab() {
       iframe.style.margin = "0";
       iframe.referrerpolicy = "no-referrer";
       iframe.allow = "fullscreen";
-      iframe.src = "https://s2dgqg-8080.csb.app/client/https://nowgg.nl/play/electronic-arts/1353/ea-sports-fc-mobile-24-soccer";
+      iframe.src = "https://ji4sg3.sse.codesandbox.io/client/https://nowgg.nl/play/electronic-arts/1353/ea-sports-fc-mobile-24-soccer";
       win.document.body.appendChild(iframe);
 }

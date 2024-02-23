@@ -74,3 +74,8 @@ body[theme="versatile"] {
   --navbar: #262626;
   --txtcolor: #d7cccc;
 }
+body[theme="plexile"] {
+  background: url(https://cdn.glitch.global/8ccf4cfa-741f-4630-8f29-733b36d972e6/f97cae64-03b4-4b89-94ec-0dacf077ea89.image.png?v=1705798388344)
+  --navbar: #16181c;
+  --txtcolor: #470000;
+}
