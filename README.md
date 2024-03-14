@@ -4,7 +4,7 @@
 <h1 align="center"><strong>JordansMathWork V4</strong></h1>
 <p align="center">An evolution of one of the greatest game sites!</p>
 <h1 align="center">V4 is archived, why yall still forking it?</h1>
-<h1 align="center"><a align="center" href="//jmw.algebrashelper.com">Live demo</a></h1>
+<h1 align="center"><a align="center" href="//github.com/galacticnetwork/jordansmathwork-v5">Go to new repo</a></h1>
 
 ### Features:
 - 150+ games
